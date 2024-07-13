@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Encriptador/Desencriptador</title>
+</head>
+<body>
+    <h1>Encriptador de texto</h1>
+    <div class="container">
+        <div class="input-section">
+            <textarea placeholder="Ingresa el texto aquí" id="texto" name="texto" class="texto"></textarea>
+            <p><img src="./img/bi_exclamation-circle-fill.png" alt=""> Solo letras minúsculas y sin acentos.</p>
+            <div class="buttons">
+                <button id="encriptar" onclick="encriptar();">Encriptar</button>
+                <button id="desencriptar" onclick="desencriptar();">Desencriptar</button>
+            </div>
+        </div>
+        <div class="output-section">
+            <img src="./img/muneco.png" alt="Ilustración" class="output-image" id="imagen">
+            <h2 id="mensaje">Ningún mensaje fue encontrado</h2>
+            <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
+        </div>
+    </div>
+    <footer>
+    <p>Derechos reservados &copy; <a href="https://www.linkedin.com/in/neovlog08/">JUAN CARLOS GUTIERREZ</a></p>
+    </footer>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
